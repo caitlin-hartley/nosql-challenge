@@ -9,7 +9,7 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 [Setup](https://github.com/caitlin-hartley/nosql-challenge/blob/main/README.md#setup)
 
-[Analysis]
+[Analysis](https://github.com/caitlin-hartley/nosql-challenge/blob/main/README.md#analysis)
 
 
 ---
@@ -50,18 +50,26 @@ The UK Food Standards Agency evaluates various establishments across the United 
 - Display the first document(s) in the results using pprint
 - Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows
 
-- Which establishments have a hygiene score equal to 20?
+----
+
+1) Which establishments have a hygiene score equal to 20?
 
 ![q1](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q1.png)
 
-- Which establishments in London have a RatingValue greater than or equal to 4?
+---
+
+2) Which establishments in London have a RatingValue greater than or equal to 4?
 
 ![q2](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q2.png)
 
-- What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+---
+
+3) What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
 ![q3](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q3.png)
 
-- How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
+---
+
+4) How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
 
 ![q4](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q4.png)
