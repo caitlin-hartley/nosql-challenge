@@ -7,7 +7,7 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 ## Contents:
 
-[Setup]
+[Setup](https://github.com/caitlin-hartley/nosql-challenge/blob/main/README.md#setup)
 
 [Analysis]
 
@@ -39,3 +39,29 @@ The UK Food Standards Agency evaluates various establishments across the United 
 
 - Use update_many to convert latitude and longitude to decimal numbers
 - Use update_many to convert RatingValue to integer numbers
+
+---
+
+## Analysis
+
+### Exploratory Analysis
+
+- Use count_documents to display the number of documents contained in the result.
+- Display the first document(s) in the results using pprint
+- Convert the result to a Pandas DataFrame, print the number of rows in the DataFrame, and display the first 10 rows
+
+- Which establishments have a hygiene score equal to 20?
+
+![q1](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q1.png)
+
+- Which establishments in London have a RatingValue greater than or equal to 4?
+
+![q2](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q2.png)
+
+- What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+
+![q3](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q3.png)
+
+- How many establishments in each Local Authority area have a hygiene score of 0? Sort the results from highest to lowest, and print out the top ten local authority areas.
+
+![q4](https://github.com/caitlin-hartley/nosql-challenge/blob/main/images/q4.png)
